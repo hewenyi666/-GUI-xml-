@@ -1,1 +1,13 @@
+该工具的用途为:生成xml格式的测试用例(数据),使用 python3+Tkinter 完成的一款GUI测试工具
 
+开发背景:以往用的用例是xml格式的,生成测试用例的话,需要到xml文件内部修改数据,来回CTRL+CV,特别容易出错,而且效率很低.所以开发了这款测试工具,用来提升测试效率
+
+文件说明:
+
+final testcase文件夹里面的result_case.xml文件,即为最终生成的测试用例
+
+temporary data文件夹不用管,里面放的是模板
+
+xml tool.py 是这款GUI工具的源码(python3版本)
+
+use tool.bat 运行文件的快捷方式,需要电脑默认为python3版本,不是的话,稍作修改文件中内容即可!
