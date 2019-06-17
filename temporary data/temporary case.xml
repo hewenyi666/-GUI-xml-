@@ -1,0 +1,12 @@
+<testcase lang="000" type="001" input="002" output="003">
+    <dicts>
+      <dict type="system" path="004" />
+	  <dict type="user" path="005" />
+    </dicts>
+    <settings>
+      <setting type="006" value="007" />
+      <setting type="008" value="009" />
+	  <setting type="010" value="011" />
+	  <setting type="012" value="013" /> 
+    </settings>
+</testcase>
