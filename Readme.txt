@@ -2,7 +2,6 @@
 
 开发背景:以往用的用例是xml格式的,生成测试用例的话,需要到xml文件内部修改数据,来回CTRL+CV,特别容易出错,而且效率很低.所以开发了这款测试工具,用来提升测试效率
 
-
 文件说明:
 
 final testcase文件夹里面的result_case.xml文件,即为最终生成的测试用例
@@ -12,7 +11,6 @@ temporary data文件夹不用管,里面放的是模板
 xml tool.py 是这款GUI工具的源码(python3版本)
 
 use tool.bat 运行文件的快捷方式,需要电脑默认为python3版本,不是的话,稍作修改文件中内容即可!
-
 
 使用方式:
 1.提前建好想要input或者output的文件,有的输入框后面有选择文件选项,点击选择文件的按钮,然后选择想要input或者output文件的路径,
@@ -25,7 +23,6 @@ use tool.bat 运行文件的快捷方式,需要电脑默认为python3版本,不�
 用例即可,重复第二步.
 
 备注:在打开这个工具后,result_case.xml文件中的用例会清空,只保留信息头,所以需要提前做好保存数据工作!
-
 
 优点:
 1.通过制作该工具,可以更加熟悉Tkinter的常用组件,如Label,Entry,LabelFrame,常用布局方式等,如grid,pack.
